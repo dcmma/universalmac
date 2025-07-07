@@ -55,22 +55,13 @@ elseif game.PlaceId == 17625359962 then
         Text = "This script does have a small key system.", -- Required
     })
 elseif game.PlaceId == 109983668079237 then
-   script_key="CznejCFHkSTEVvUzHyIhxZTXkNnVLVhy";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/53325754de16c11fbf8bf78101c1c881.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalSABhelperMAC/refs/heads/main/sab"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Rivals Detected", -- Required
         Text = "This script does have a small key system.", -- Required
     })
 elseif game.PlaceId == 96342491571673 then
-   script_key="gRlaZfvsUOCdtRhhPLKAHdoeqvtdAZPj";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/53325754de16c11fbf8bf78101c1c881.lua"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Steal a Brainrot [New Players]", -- Required
-        Text = "This script does have a retarded key system.", -- Required
-    })
-elseif game.PlaceId == 96342491571673 then
-   script_key="gRlaZfvsUOCdtRhhPLKAHdoeqvtdAZPj";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/53325754de16c11fbf8bf78101c1c881.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalSABhelperMAC/refs/heads/main/sab"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Steal a Brainrot [New Players]", -- Required
         Text = "This script does have a retarded key system.", -- Required
