@@ -54,10 +54,10 @@ elseif game.PlaceId == 17625359962 then
         Title = "Rivals Detected", -- Required
         Text = "This script does have a small key system.", -- Required
     })
-elseif game.PlaceId == 96342491571673 then
+elseif game.PlaceId == 109983668079237 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Steal a Brainrot [New Players]", -- Required
+        Title = "Steal a Brainrot", -- Required
         Text = "Enjoy, Premium User.", -- Required
     })
 elseif game.PlaceId == 96342491571673 then
