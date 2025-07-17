@@ -1,34 +1,36 @@
+local StarterGui = game:GetService("StarterGui")
+
 if game.PlaceId == 8657766101 then
     loadstring(game:HttpGet("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Marvellous Playground Detected.",
         Text = "Enjoy.",
     })
 
 elseif game.PlaceId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Murder Mystery 2 Detected",
         Text = "Enjoy.",
     })
 
 elseif game.PlaceId == 205224386 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Hn1-Hub/Hn1_KeysTests/refs/heads/main/Hn1%20Hub%20Loader"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Hide and Seek Extreme Detected",
         Text = "Enjoy.",
     })
 
 elseif game.PlaceId == 6403373529 then
     loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-Slap-Battles-Forge-Hub-18488"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Slap Battles Detected",
         Text = "This script does have a key system.",
     })
 
 elseif game.PlaceId == 155615604 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Rayanitoo/prison-life-v-1.0/refs/heads/main/made%20by%20rayan"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Prison Life Detected",
         Text = "Enjoy.",
     })
@@ -36,7 +38,7 @@ elseif game.PlaceId == 155615604 then
 elseif game.PlaceId == 189707 then
     loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG", true))()
     setclipboard("27jUkl")
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Natural Disaster Survival Detected",
         Text = "Key copied to clipboard, use NullFire",
     })
@@ -47,7 +49,7 @@ elseif game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://pastebin.com/raw/iv9qAHZP"))()
     task.wait(1)
     print("Enable these: Enabled, TeamCheck, Box, Boxfill, Tracers, HealthESP, HealthBar.")
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Arsenal Detected",
         Text = "Enjoy. Check console for ESP configuration.",
     })
@@ -57,29 +59,35 @@ elseif game.PlaceId == 17625359962 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
     task.wait(1)
     print("Fuck Venox Hub")
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Rivals Detected",
         Text = "This script does have a small key system.",
     })
 
 elseif game.PlaceId == 109983668079237 then
+    queue_on_teleport([[
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))() -- main script (re executed on rejoin)
+    ]])
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))()
     task.wait(0.5)
+    queue_on_teleport([[
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalSABhelperMAC/refs/heads/main/sab"))() -- auto invis cloak (re executed on rejoin)
+    ]])
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalSABhelperMAC/refs/heads/main/sab"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Steal a Brainrot",
         Text = "Enjoy, Premium User.",
     })
 
 elseif game.PlaceId == 96342491571673 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))()
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "Steal a Brainrot [New Players]",
-        Text = "This script does have a retarded key system.",
+        Text = "Enjoy, Premium User.",
     })
 
 else
-    game:GetService("StarterGui"):SetCore("SendNotification", {
+    StarterGui:SetCore("SendNotification", {
         Title = "No Game Detected",
         Text = "This game is not recognized.",
     })
