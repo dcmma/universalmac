@@ -66,7 +66,7 @@ elseif game.PlaceId == 17625359962 then
 
 elseif game.PlaceId == 109983668079237 then
     queue_on_teleport([[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))() -- main script (re executed on rejoin)
+        getgenv().Key="AKUNDISCO_tN7eIvP5MaWtzuACkpL6";loadstring(game:HttpGet("https://adminpython.pythonanywhere.com/source?KJJsjsjJJq=AKUNDISCO_tN7eIvP5MaWtzuACkpL6"))() -- main script (re executed on rejoin)
     ]])
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))()
     task.wait(0.5)
