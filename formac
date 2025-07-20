@@ -86,18 +86,25 @@ elseif game.PlaceId == 96342491571673 then
         Text = "Enjoy, Premium User.",
     })
 
-else
-    StarterGui:SetCore("SendNotification", {
-        Title = "No Game Detected",
-        Text = "This game is not recognized.",
-    })
-end
-
 elseif game.PlaceId == 99567941238278 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
     StarterGui:SetCore("SendNotification", {
         Title = "Ink Game",
         Text = "Enjoy.",
     })
+
+elseif game.PlaceId == 126884695634066 then
+    loadstring(game:HttpGet("https://get.nathub.xyz/loader"))();
+    StarterGui:SetCore("SendNotification", {
+        Title = "Grow a Garden",
+        Text = "This script has a small key system.",
+    })
+
+else
+    StarterGui:SetCore("SendNotification", {
+        Title = "No Game Detected",
+        Text = "This game is not recognized.",
+    })
+end
 
 print("(DC HUB) Everything executed smoothly")
