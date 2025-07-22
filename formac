@@ -69,11 +69,6 @@ elseif game.PlaceId == 109983668079237 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/akundnested/refs/heads/main/script"))() -- main script (re executed on rejoin)
     ]])
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/akundnested/refs/heads/main/script"))()
-    task.wait(0.5)
-    queue_on_teleport([[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalSABhelperMAC/refs/heads/main/sab"))() -- auto invis cloak (re executed on rejoin)
-    ]])
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalSABhelperMAC/refs/heads/main/sab"))()
     StarterGui:SetCore("SendNotification", {
         Title = "Steal a Brainrot",
         Text = "Enjoy, Premium User.",
