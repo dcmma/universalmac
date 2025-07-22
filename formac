@@ -66,9 +66,9 @@ elseif game.PlaceId == 17625359962 then
 
 elseif game.PlaceId == 109983668079237 then
     queue_on_teleport([[
-        getgenv().Key="AKUNDISCO_DU3CwyrckK5JljJUmmAK";loadstring(game:HttpGet("https://adminpython.pythonanywhere.com/source?KJJsjsjJJq=AKUNDISCO_DU3CwyrckK5JljJUmmAK"))() -- main script (re executed on rejoin)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/akundnested/refs/heads/main/script"))() -- main script (re executed on rejoin)
     ]])
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/akundnested/refs/heads/main/script"))()
     task.wait(0.5)
     queue_on_teleport([[
         loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalSABhelperMAC/refs/heads/main/sab"))() -- auto invis cloak (re executed on rejoin)
