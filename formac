@@ -89,10 +89,11 @@ elseif game.PlaceId == 99567941238278 then
     })
 
 elseif game.PlaceId == 126884695634066 then
-    loadstring(game:HttpGet("https://get.nathub.xyz/loader"))();
+    script_key="DCWnwvsZHuxCZFUooBUzCRvUKVFJJkZw";
+    premium=true;loadstring(game:HttpGet("https://get.nathub.xyz/loader"))();
     StarterGui:SetCore("SendNotification", {
         Title = "Grow a Garden",
-        Text = "This script has a small key system.",
+        Text = "Enjoy, Premium User!",
     })
 
 else
