@@ -89,7 +89,7 @@ elseif game.PlaceId == 99567941238278 then
     })
 
 elseif game.PlaceId == 126884695634066 then
-    script_key="DCWnwvsZHuxCZFUooBUzCRvUKVFJJkZw";
+    script_key="UrCZOnpWHQoPuQNPjWVNrVUdyecFsdwv";
     premium=true;loadstring(game:HttpGet("https://get.nathub.xyz/loader"))();
     StarterGui:SetCore("SendNotification", {
         Title = "Grow a Garden",
