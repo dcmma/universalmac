@@ -95,7 +95,26 @@ elseif game.PlaceId == 126884695634066 then
         Title = "Grow a Garden",
         Text = "Enjoy, Premium User!",
     })
-
+elseif game.PlaceId == 2809202155 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vezise/vezzyscripts/main/xenonv3_source"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "YBA", -- Required
+        Text = "Welcome Back, Enjoy.", -- Required
+    })
+elseif game.PlaceId == 94590879393563 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripybara/Swiftbara-Hub-Version-2.0-Weird-Gun-Game/refs/heads/main/main.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Weird Gun Game", -- Required
+        Text = "Enjoy.", -- Required
+    })
+elseif game.PlaceId == 2248408710 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/P9rmutgq"))()
+    task.wait(5)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/lifeaautosteal/refs/heads/main/script"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Destruction Simulator", -- Required
+        Text = "Enjoy.", -- Required
+    })
 else
     StarterGui:SetCore("SendNotification", {
         Title = "No Game Detected",
