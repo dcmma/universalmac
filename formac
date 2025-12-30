@@ -101,6 +101,12 @@ elseif game.PlaceId == 2809202155 then
         Title = "YBA", -- Required
         Text = "Welcome Back, Enjoy.", -- Required
     })
+elseif game.PlaceId == 4643697430 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vezise/vezzyscripts/main/ybaisassv3"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "YBA | SBR", -- Required
+        Text = "Welcome Back, Enjoy, #1.", -- Required
+    })
 elseif game.PlaceId == 94590879393563 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripybara/Swiftbara-Hub-Version-2.0-Weird-Gun-Game/refs/heads/main/main.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
