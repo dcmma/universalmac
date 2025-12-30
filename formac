@@ -96,7 +96,7 @@ elseif game.PlaceId == 126884695634066 then
         Text = "Enjoy, Premium User!",
     })
 elseif game.PlaceId == 2809202155 then
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fdbac487b2e7ceafb89f7c26351fddb6.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vezise/vezzyscripts/main/xenonv3_source"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "YBA", -- Required
         Text = "Welcome Back, Enjoy.", -- Required
