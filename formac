@@ -139,7 +139,7 @@ elseif game.PlaceId == 76558904092080 then
         Title = "The Forge", -- Required
         Text = "Enjoy.", -- Required
     })
-elseif game.PlaceId == =129009554587176 then
+elseif game.PlaceId == 129009554587176 then
     loadstring(game:HttpGet("https://haze.wtf/api/script"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "The Forge | Forgotten Kingdom", -- Required
