@@ -133,11 +133,15 @@ elseif game.PlaceId == 192800 then
         Title = "Work at a Pizza Place", -- Required
         Text = "Enjoy.", -- Required
     })
+elseif game.PlaceId == 76558904092080 then
+    loadstring(game:HttpGet("https://haze.wtf/api/script"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "The Forge", -- Required
+        Text = "Enjoy.", -- Required
+    })
 else
     StarterGui:SetCore("SendNotification", {
         Title = "No Game Detected",
         Text = "This game is not recognized.",
     })
 end
-
-print("(DC HUB) Everything executed smoothly")
