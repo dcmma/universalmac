@@ -145,6 +145,12 @@ elseif game.PlaceId == 129009554587176 then
         Title = "The Forge | Forgotten Kingdom", -- Required
         Text = "Enjoy.", -- Required
     })
+elseif game.PlaceId == 7671049560 then
+    loadstring(game:HttpGet("https://haze.wtf/api/script"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "The Forge | Frostspire Expanse", -- Required
+        Text = "Enjoy.", -- Required
+    })
 else
     StarterGui:SetCore("SendNotification", {
         Title = "No Game Detected",
