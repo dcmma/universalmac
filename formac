@@ -95,30 +95,35 @@ elseif game.PlaceId == 126884695634066 then
         Title = "Grow a Garden",
         Text = "Enjoy, Premium User!",
     })
+
 elseif game.PlaceId == 2809202155 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vezise/vezzyscripts/main/xenonv3_source"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "YBA", -- Required
         Text = "Welcome Back, Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 4643697430 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vezise/vezzyscripts/main/ybaisassv3"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "YBA | SBR (Normal)", -- Required
         Text = "Welcome Back, #1, Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 4643697430 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vezise/vezzyscripts/main/ybaisassv3"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "YBA | SBR (Ranked)", -- Required
         Text = "Welcome Back, #1, Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 94590879393563 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripybara/Swiftbara-Hub-Version-2.0-Weird-Gun-Game/refs/heads/main/main.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Weird Gun Game", -- Required
         Text = "Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 2248408710 then
     loadstring(game:HttpGet("https://pastebin.com/raw/P9rmutgq"))()
     task.wait(5)
@@ -127,24 +132,28 @@ elseif game.PlaceId == 2248408710 then
         Title = "Destruction Simulator", -- Required
         Text = "Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 192800 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Work%20at%20a%20pizza%20place'),true))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Work at a Pizza Place", -- Required
         Text = "Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 76558904092080 then
     loadstring(game:HttpGet("https://haze.wtf/api/script"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "The Forge", -- Required
         Text = "Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 129009554587176 then
     loadstring(game:HttpGet("https://haze.wtf/api/script"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "The Forge | Forgotten Kingdom", -- Required
         Text = "Enjoy.", -- Required
     })
+
 elseif game.PlaceId == 7671049560 then
     loadstring(game:HttpGet("https://haze.wtf/api/script"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
