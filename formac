@@ -20,7 +20,9 @@ local function run(url)
     end
 end
 
+-- BOTH IDs (important)
 local pid = game.PlaceId
+local gid = game.GameId
 
 if pid == 8657766101 then
     run("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337")
@@ -69,8 +71,8 @@ elseif pid == 99567941238278 then
     notify("Ink Game", "Enjoy.")
 
 elseif pid == 126884695634066 then
-    script_key = "UrCZOnpWHQoPuQNPjWVNrVUdyecFsdwv"
-    premium = true
+    _G.script_key = "UrCZOnpWHQoPuQNPjWVNrVUdyecFsdwv"
+    _G.premium = true
     run("https://get.nathub.xyz/loader")
     notify("Grow a Garden", "Enjoy, Premium User!")
 
@@ -96,15 +98,16 @@ elseif pid == 192800 then
     run("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Work%20at%20a%20pizza%20place")
     notify("Work at a Pizza Place", "Enjoy.")
 
-elseif pid == 76558904092080 then
+-- 🔥 FORGE (uses GameId, NOT PlaceId)
+elseif gid == 76558904092080 then
     run("https://haze.wtf/api/script")
     notify("The Forge", "Enjoy.")
 
-elseif pid == 129009554587176 then
+elseif gid == 129009554587176 then
     run("https://haze.wtf/api/script")
     notify("The Forge | Forgotten Kingdom", "Enjoy.")
 
-elseif pid == 7671049560 then
+elseif gid == 7671049560 then
     run("https://haze.wtf/api/script")
     notify("The Forge | Frostspire Expanse", "Enjoy.")
 
