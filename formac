@@ -111,6 +111,10 @@ elseif gid == 7671049560 then
     run("https://haze.wtf/api/script")
     notify("The Forge | Frostspire Expanse", "Enjoy.")
 
+elseif gid == 9391468976 then
+    run("https://haze.wtf/api/script")
+    notify("JJS", "Enjoy.")
+
 else
     notify("No Game Detected", "This game is not recognized.")
 end
