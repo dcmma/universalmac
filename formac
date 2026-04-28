@@ -20,21 +20,12 @@ local function run(url)
     end
 end
 
--- BOTH IDs (important)
 local pid = game.PlaceId
 local gid = game.GameId
 
 if pid == 8657766101 then
     run("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337")
     notify("Marvellous Playground Detected", "Enjoy.")
-
-elseif pid == 142823291 then
-    run("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main")
-    notify("Murder Mystery 2 Detected", "Enjoy.")
-
-elseif pid == 205224386 then
-    run("https://raw.githubusercontent.com/Hn1-Hub/Hn1_KeysTests/refs/heads/main/Hn1%20Hub%20Loader")
-    notify("Hide and Seek Extreme Detected", "Enjoy.")
 
 elseif pid == 6403373529 then
     run("https://rawscripts.net/raw/UPDATE-Slap-Battles-Forge-Hub-18488")
@@ -90,7 +81,6 @@ elseif pid == 94590879393563 then
 
 elseif pid == 2248408710 then
     run("https://pastebin.com/raw/P9rmutgq")
-    task.wait(5)
     run("https://raw.githubusercontent.com/dcmma/lifeaautosteal/refs/heads/main/script")
     notify("Destruction Simulator", "Enjoy.")
 
@@ -98,7 +88,6 @@ elseif pid == 192800 then
     run("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Work%20at%20a%20pizza%20place")
     notify("Work at a Pizza Place", "Enjoy.")
 
--- 🔥 FORGE (uses GameId, NOT PlaceId)
 elseif gid == 76558904092080 then
     run("https://haze.wtf/api/script")
     notify("The Forge", "Enjoy.")
@@ -111,9 +100,71 @@ elseif gid == 7671049560 then
     run("https://haze.wtf/api/script")
     notify("The Forge | Frostspire Expanse", "Enjoy.")
 
-elseif gid == 9391468976 then
-    run("https://haze.wtf/api/script")
-    notify("JJS", "Enjoy.")
+elseif gid == 142823291 then
+    run("https://raw.githubusercontent.com/Aura-56/MurderMystery2/refs/heads/main/AzureHub.lua")
+    notify("MM2", "Enjoy.")
+
+elseif pid == 9391468976 then
+    -- LOGIC MOVED TO TOP OF BLOCK
+    local UIS = game:GetService("UserInputService")
+    local hotkeySettings = {
+        [Enum.KeyCode.J] = {
+            text = [[{"Version":1,"Controls":{"Hip Height":{"Value":0,"Kind":"Slider"},"Camera Lock On":{"Value":false,"Kind":"Toggle"},"Yuji Jump":{"Value":false,"Kind":"Toggle"},"VFX Recolor":{"Value":false,"Kind":"Toggle"},"Ultimate Title":{"Value":"Enter text","Kind":"Input"},"Manga":{"Value":false,"Kind":"Toggle"},"Lock On Icon Size":{"Value":5,"Kind":"Slider"},"Domain Amplification":{"Value":false,"Kind":"Toggle"},"Mesh":{"Value":false,"Kind":"Toggle"},"Item Shadow Void":{"Value":false,"Kind":"Toggle"},"Focus Strike":{"Value":false,"Kind":"Toggle"},"Mesh Id":{"Value":"","Kind":"Input"},"Nue":{"Value":false,"Kind":"Toggle"},"Anti-NoJump":{"Value":false,"Kind":"Toggle"},"Infinite Jump":{"Value":false,"Kind":"Toggle"},"Gradient Start":{"Value":[1,1,1],"Kind":"ColorPicker"},"Block Range":{"Value":20,"Kind":"Slider"},"Reversal Red MAX":{"Value":false,"Kind":"Toggle"},"Gravity":{"Value":196.2,"Kind":"Slider"},"Chams ESP":{"Value":true,"Kind":"Toggle"},"Super Tze Animations":{"Value":false,"Kind":"Toggle"},"Burst on Skill":{"Value":false,"Kind":"Toggle"},"After-Images":{"Value":false,"Kind":"Toggle"},"Anti-NoSprint":{"Value":false,"Kind":"Toggle"},"Shirt ID":{"Value":"","Kind":"Input"},"Body Repel":{"Value":false,"Kind":"Toggle"},"Damage Numbers":{"Value":true,"Kind":"Toggle"},"Higuruma Sword":{"Value":false,"Kind":"Toggle"},"Ryu Larp":{"Value":false,"Kind":"Toggle"},"Brute Force":{"Value":false,"Kind":"Toggle"},"Infinite Zoom":{"Value":true,"Kind":"Toggle"},"Todo Perfect Swap":{"Value":true,"Kind":"Toggle"},"Kill Sound":{"Value":"ID","Kind":"Input"},"Mahoraga Animations":{"Value":false,"Kind":"Toggle"},"Debris Amount":{"Value":10,"Kind":"Slider"},"Tenna":{"Value":false,"Kind":"Toggle"},"AIZO":{"Value":false,"Kind":"Toggle"},"Mesh Position":{"Value":"0, 0, 0","Kind":"Input"},"Reversal Red":{"Value":false,"Kind":"Toggle"},"Hit/Kill All":{"Value":false,"Kind":"Toggle"},"Noclip":{"Value":false,"Kind":"Toggle"},"Flames":{"Value":false,"Kind":"Toggle"},"Spinner":{"Value":false,"Kind":"Toggle"},"Mahito Super Ult":{"Value":false,"Kind":"Toggle"},"Flicker":{"Value":false,"Kind":"Toggle"},"Cursed Energy Arms":{"Value":false,"Kind":"Toggle"},"Auto Block":{"Value":true,"Kind":"Toggle"},"Hitbox Expander":{"Value":false,"Kind":"Toggle"},"Spawn Delay":{"Value":1,"Kind":"Slider"},"Pants ID":{"Value":"","Kind":"Input"},"Toad":{"Value":false,"Kind":"Toggle"},"Item Outline ESP":{"Value":false,"Kind":"Toggle"},"Four Arms":{"Value":false,"Kind":"Toggle"},"Hakari Ultimate Aura":{"Value":false,"Kind":"Toggle"},"Anti-Stun":{"Value":false,"Kind":"Toggle"},"Todo Fake Swap":{"Value":false,"Kind":"Toggle"},"Combat Trail Color":{"Value":false,"Kind":"Toggle"},"Mokou 3":{"Value":false,"Kind":"Toggle"},"Charles Block":{"Value":false,"Kind":"Toggle"},"Burst Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Import Config":{"Value":"","Kind":"Input"},"Mechamaru":{"Value":false,"Kind":"Toggle"},"Yuki Mass Breaker":{"Value":false,"Kind":"Toggle"},"Character Lock On":{"Value":false,"Kind":"Toggle"},"WalkSpeed":{"Value":"0","Kind":"Input"},"Mokou Animations":{"Value":false,"Kind":"Toggle"},"Chara":{"Value":false,"Kind":"Toggle"},"Auto Counter":{"Value":true,"Kind":"Toggle"},"Choppy Anims":{"Value":false,"Kind":"Toggle"},"Invisible Block":{"Value":false,"Kind":"Toggle"},"Cursed Speech Stun":{"Value":false,"Kind":"Toggle"},"Yuta Block":{"Value":false,"Kind":"Toggle"},"Mesh Body Part":{"Value":"Torso","Kind":"Input"},"Divergent Fist":{"Value":true,"Kind":"Toggle"},"Auto Ratio":{"Value":true,"Kind":"Toggle"},"Fireball Stuff":{"Value":false,"Kind":"Toggle"},"Chara Boss Aura":{"Value":false,"Kind":"Toggle"},"Slash Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Goku Aura":{"Value":false,"Kind":"Toggle"},"Garuda Rebound":{"Value":false,"Kind":"Toggle"},"VFX Color":{"Value":[1,0,0],"Kind":"ColorPicker"},"Jojo Stand":{"Value":false,"Kind":"Toggle"},"Chara Block":{"Value":false,"Kind":"Toggle"},"Skill Mesh Data":{"Value":"{\"Version\":3,\"Slots\":[]}","Kind":"Input"},"Wally West Aura":{"Value":false,"Kind":"Toggle"},"After-Image End Color":{"Value":[0,0,0],"Kind":"ColorPicker"},"Block Sparks on Skill":{"Value":false,"Kind":"Toggle"},"Anti-Ragdoll":{"Value":false,"Kind":"Toggle"},"Debris Spawn Distance":{"Value":5,"Kind":"Slider"},"Death Screens":{"Value":true,"Kind":"Toggle"},"Wally West Animations":{"Value":false,"Kind":"Toggle"},"Jevil":{"Value":false,"Kind":"Toggle"},"Flashstep VFX":{"Value":false,"Kind":"Toggle"},"Tuff Animations":{"Value":false,"Kind":"Toggle"},"Counter Range":{"Value":5,"Kind":"Slider"},"Yuji Block":{"Value":false,"Kind":"Toggle"},"Flame Wind":{"Value":false,"Kind":"Toggle"},"Item Name ESP":{"Value":false,"Kind":"Toggle"},"Fever Breaker":{"Value":false,"Kind":"Toggle"},"Six Eyes":{"Value":false,"Kind":"Toggle"},"Sparkles on Skill":{"Value":false,"Kind":"Toggle"},"Flight":{"Value":false,"Kind":"Toggle"},"After-Image Start Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Dash Multiplier":{"Value":1,"Kind":"Slider"},"Infinite Item Pick Up Range":{"Value":false,"Kind":"Toggle"},"Haruta Block":{"Value":false,"Kind":"Toggle"},"Nanami Ultimate Aura":{"Value":false,"Kind":"Toggle"},"Black Flash Aura":{"Value":false,"Kind":"Toggle"},"Info ESP":{"Value":false,"Kind":"Toggle"},"Thunder Eyes":{"Value":false,"Kind":"Toggle"},"Fading":{"Value":false,"Kind":"Toggle"},"Mesh Slot Name":{"Value":"TorsoMesh","Kind":"Input"},"Revolve":{"Value":false,"Kind":"Toggle"},"Sukuna Ultimate Aura":{"Value":false,"Kind":"Toggle"},"Wind Circle on Skill":{"Value":false,"Kind":"Toggle"},"Self Fling":{"Value":false,"Kind":"Toggle"},"Higuruma QTE":{"Value":true,"Kind":"Toggle"},"Mesh Texture":{"Value":"","Kind":"Input"},"World Slash Charge":{"Value":false,"Kind":"Toggle"},"Nue Shock":{"Value":false,"Kind":"Toggle"},"Gradient End":{"Value":[1,1,1],"Kind":"ColorPicker"},"World Cutting Slash":{"Value":false,"Kind":"Toggle"},"Block Sparks Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Mokou 1":{"Value":false,"Kind":"Toggle"},"Debris":{"Value":false,"Kind":"Toggle"},"Sparkles Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Item Tracer ESP":{"Value":false,"Kind":"Toggle"},"Reserve Balls":{"Value":false,"Kind":"Toggle"},"Mahito Ultimate Aura":{"Value":false,"Kind":"Toggle"},"After-Image Lifetime":{"Value":0.5,"Kind":"Slider"},"Wind Circle Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Mobile UI":{"Value":false,"Kind":"Toggle"},"Nanami Cleaver":{"Value":false,"Kind":"Toggle"},"Slash on Skill":{"Value":false,"Kind":"Toggle"},"Good Graphics":{"Value":false,"Kind":"Toggle"},"FOV":{"Value":70,"Kind":"Slider"},"Mesh Rotation":{"Value":"0, 0, 0","Kind":"Input"},"Cleave Rush":{"Value":false,"Kind":"Toggle"},"Transform Into User":{"Value":"Paste ID here","Kind":"Input"},"Tracer ESP":{"Value":false,"Kind":"Toggle"},"Mokou 2":{"Value":false,"Kind":"Toggle"},"Gojo Block":{"Value":false,"Kind":"Toggle"}}} ]],
+            hasUsedFirstTime = false, tapCount = 0, lastTapTime = 0
+        },
+        [Enum.KeyCode.K] = {
+            text = [[{"Version":1,"Controls":{"Hip Height":{"Value":0,"Kind":"Slider"},"Camera Lock On":{"Value":false,"Kind":"Toggle"},"Yuji Jump":{"Value":false,"Kind":"Toggle"},"Revolve":{"Value":false,"Kind":"Toggle"},"VFX Recolor":{"Value":false,"Kind":"Toggle"},"Ultimate Title":{"Value":"Enter text","Kind":"Input"},"Yuki Mass Breaker":{"Value":false,"Kind":"Toggle"},"Lock On Icon Size":{"Value":5,"Kind":"Slider"},"Character Lock On":{"Value":false,"Kind":"Toggle"},"Domain Amplification":{"Value":false,"Kind":"Toggle"},"WalkSpeed":{"Value":"0","Kind":"Input"},"Higuruma QTE":{"Value":true,"Kind":"Toggle"},"Mokou Animations":{"Value":false,"Kind":"Toggle"},"Focus Strike":{"Value":true,"Kind":"Toggle"},"Chara":{"Value":false,"Kind":"Toggle"},"Choppy Anims":{"Value":false,"Kind":"Toggle"},"Cursed Speech Stun":{"Value":false,"Kind":"Toggle"},"Anti-NoJump":{"Value":true,"Kind":"Toggle"},"Infinite Jump":{"Value":false,"Kind":"Toggle"},"Divergent Fist":{"Value":false,"Kind":"Toggle"},"Gradient Start":{"Value":[1,1,1],"Kind":"ColorPicker"},"Block Range":{"Value":20,"Kind":"Slider"},"Reserve Balls":{"Value":false,"Kind":"Toggle"},"Auto Ratio":{"Value":true,"Kind":"Toggle"},"Chams ESP":{"Value":true,"Kind":"Toggle"},"Chara Boss Aura":{"Value":true,"Kind":"Toggle"},"Super Tze Animations":{"Value":false,"Kind":"Toggle"},"Gradient End":{"Value":[1,1,1],"Kind":"ColorPicker"},"VFX Color":{"Value":[1,0,0],"Kind":"ColorPicker"},"After-Images":{"Value":false,"Kind":"Toggle"},"Anti-NoSprint":{"Value":true,"Kind":"Toggle"},"Jojo Stand":{"Value":false,"Kind":"Toggle"},"Item Tracer ESP":{"Value":false,"Kind":"Toggle"},"Body Repel":{"Value":false,"Kind":"Toggle"},"Damage Numbers":{"Value":true,"Kind":"Toggle"},"Ryu Larp":{"Value":false,"Kind":"Toggle"},"Brute Force":{"Value":false,"Kind":"Toggle"},"Infinite Zoom":{"Value":true,"Kind":"Toggle"},"Wally West Aura":{"Value":false,"Kind":"Toggle"},"Todo Perfect Swap":{"Value":true,"Kind":"Toggle"},"Kill Sound":{"Value":"ID","Kind":"Input"},"Wally West Animations":{"Value":false,"Kind":"Toggle"},"Mahoraga Animations":{"Value":false,"Kind":"Toggle"},"Tenna":{"Value":false,"Kind":"Toggle"},"Six Eyes":{"Value":true,"Kind":"Toggle"},"Combat Trail Color":{"Value":false,"Kind":"Toggle"},"Todo Fake Swap":{"Value":false,"Kind":"Toggle"},"Dash Multiplier":{"Value":1.2304916233731323,"Kind":"Slider"},"Noclip":{"Value":false,"Kind":"Toggle"},"Death Screens":{"Value":true,"Kind":"Toggle"},"Hit/Kill All":{"Value":false,"Kind":"Toggle"},"Tuff Animations":{"Value":false,"Kind":"Toggle"},"Info ESP":{"Value":false,"Kind":"Toggle"},"Cleave Rush":{"Value":false,"Kind":"Toggle"},"Gravity":{"Value":196.2,"Kind":"Slider"},"FOV":{"Value":70,"Kind":"Slider"},"Spinner":{"Value":false,"Kind":"Toggle"},"Item Name ESP":{"Value":false,"Kind":"Toggle"},"Sukuna Ultimate Aura":{"Value":false,"Kind":"Toggle"},"Import Config":{"Value":"","Kind":"Input"},"Anti-Stun":{"Value":true,"Kind":"Toggle"},"Hakari Ultimate Aura":{"Value":false,"Kind":"Toggle"},"After-Image Lifetime":{"Value":0.5,"Kind":"Slider"},"Flicker":{"Value":false,"Kind":"Toggle"},"Self Fling":{"Value":false,"Kind":"Toggle"},"Cursed Energy Arms":{"Value":false,"Kind":"Toggle"},"Auto Block":{"Value":true,"Kind":"Toggle"},"Flight":{"Value":false,"Kind":"Toggle"},"Fever Breaker":{"Value":false,"Kind":"Toggle"},"Hitbox Expander":{"Value":true,"Kind":"Toggle"},"Flashstep VFX":{"Value":false,"Kind":"Toggle"},"Garuda Rebound":{"Value":false,"Kind":"Toggle"},"Mahito Ultimate Aura":{"Value":false,"Kind":"Toggle"},"After-Image Start Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Manga":{"Value":false,"Kind":"Toggle"},"Nanami Ultimate Aura":{"Value":false,"Kind":"Toggle"},"Toad":{"Value":false,"Kind":"Toggle"},"Item Outline ESP":{"Value":false,"Kind":"Toggle"},"Good Graphics":{"Value":false,"Kind":"Toggle"},"Four Arms":{"Value":false,"Kind":"Toggle"},"Mobile UI":{"Value":false,"Kind":"Toggle"},"Jevil":{"Value":false,"Kind":"Toggle"},"Transform Into User":{"Value":"Paste ID here","Kind":"Input"},"Tracer ESP":{"Value":false,"Kind":"Toggle"},"Anti-Ragdoll":{"Value":true,"Kind":"Toggle"},"After-Image End Color":{"Value":[0,0,0],"Kind":"ColorPicker"}}} ]],
+            hasUsedFirstTime = false, tapCount = 0, lastTapTime = 0
+        },
+        [Enum.KeyCode.L] = {
+            text = [[{"Version":1,"Controls":{"Hip Height":{"Value":0,"Kind":"Slider"},"Camera Lock On":{"Value":true,"Kind":"Toggle"},"Yuji Jump":{"Value":false,"Kind":"Toggle"},"Revolve":{"Value":false,"Kind":"Toggle"},"VFX Recolor":{"Value":false,"Kind":"Toggle"},"Ultimate Title":{"Value":"Enter text","Kind":"Input"},"Yuki Mass Breaker":{"Value":false,"Kind":"Toggle"},"Lock On Icon Size":{"Value":5,"Kind":"Slider"},"Character Lock On":{"Value":false,"Kind":"Toggle"},"Domain Amplification":{"Value":false,"Kind":"Toggle"},"WalkSpeed":{"Value":"0","Kind":"Input"},"Higuruma QTE":{"Value":false,"Kind":"Toggle"},"Mokou Animations":{"Value":false,"Kind":"Toggle"},"Focus Strike":{"Value":false,"Kind":"Toggle"},"Chara":{"Value":false,"Kind":"Toggle"},"Choppy Anims":{"Value":false,"Kind":"Toggle"},"Cursed Speech Stun":{"Value":false,"Kind":"Toggle"},"Anti-NoJump":{"Value":false,"Kind":"Toggle"},"Infinite Jump":{"Value":false,"Kind":"Toggle"},"Divergent Fist":{"Value":true,"Kind":"Toggle"},"Gradient Start":{"Value":[1,1,1],"Kind":"ColorPicker"},"Block Range":{"Value":16.236488620890236,"Kind":"Slider"},"Reserve Balls":{"Value":false,"Kind":"Toggle"},"Auto Ratio":{"Value":false,"Kind":"Toggle"},"Chams ESP":{"Value":false,"Kind":"Toggle"},"Chara Boss Aura":{"Value":false,"Kind":"Toggle"},"Super Tze Animations":{"Value":false,"Kind":"Toggle"},"Gradient End":{"Value":[1,1,1],"Kind":"ColorPicker"},"VFX Color":{"Value":[1,0,0],"Kind":"ColorPicker"},"After-Images":{"Value":false,"Kind":"Toggle"},"Anti-NoSprint":{"Value":false,"Kind":"Toggle"},"Jojo Stand":{"Value":false,"Kind":"Toggle"},"Item Tracer ESP":{"Value":false,"Kind":"Toggle"},"Body Repel":{"Value":false,"Kind":"Toggle"},"Damage Numbers":{"Value":false,"Kind":"Toggle"},"Ryu Larp":{"Value":false,"Kind":"Toggle"},"Brute Force":{"Value":false,"Kind":"Toggle"},"Infinite Zoom":{"Value":false,"Kind":"Toggle"},"Wally West Aura":{"Value":false,"Kind":"Toggle"},"Todo Perfect Swap":{"Value":false,"Kind":"Toggle"},"Kill Sound":{"Value":"ID","Kind":"Input"},"Wally West Animations":{"Value":false,"Kind":"Toggle"},"Mahoraga Animations":{"Value":false,"Kind":"Toggle"},"Tenna":{"Value":false,"Kind":"Toggle"},"Six Eyes":{"Value":false,"Kind":"Toggle"},"Combat Trail Color":{"Value":false,"Kind":"Toggle"},"Todo Fake Swap":{"Value":false,"Kind":"Toggle"},"Dash Multiplier":{"Value":1,"Kind":"Slider"},"Noclip":{"Value":false,"Kind":"Toggle"},"Death Screens":{"Value":false,"Kind":"Toggle"},"Hit/Kill All":{"Value":false,"Kind":"Toggle"},"Tuff Animations":{"Value":false,"Kind":"Toggle"},"Info ESP":{"Value":false,"Kind":"Toggle"},"Cleave Rush":{"Value":false,"Kind":"Toggle"},"Gravity":{"Value":196.2,"Kind":"Slider"},"FOV":{"Value":70,"Kind":"Slider"},"Spinner":{"Value":false,"Kind":"Toggle"},"Item Name ESP":{"Value":false,"Kind":"Toggle"},"Sukuna Ultimate Aura":{"Value":true,"Kind":"Toggle"},"Import Config":{"Value":"","Kind":"Input"},"Anti-Stun":{"Value":false,"Kind":"Toggle"},"Hakari Ultimate Aura":{"Value":false,"Kind":"Toggle"},"After-Image Lifetime":{"Value":0.5,"Kind":"Slider"},"Flicker":{"Value":false,"Kind":"Toggle"},"Self Fling":{"Value":false,"Kind":"Toggle"},"Cursed Energy Arms":{"Value":false,"Kind":"Toggle"},"Auto Block":{"Value":true,"Kind":"Toggle"},"Flight":{"Value":false,"Kind":"Toggle"},"Fever Breaker":{"Value":false,"Kind":"Toggle"},"Hitbox Expander":{"Value":false,"Kind":"Toggle"},"Flashstep VFX":{"Value":false,"Kind":"Toggle"},"Garuda Rebound":{"Value":false,"Kind":"Toggle"},"Mahito Ultimate Aura":{"Value":false,"Kind":"Toggle"},"After-Image Start Color":{"Value":[1,1,1],"Kind":"ColorPicker"},"Manga":{"Value":false,"Kind":"Toggle"},"Nanami Ultimate Aura":{"Value":false,"Kind":"Toggle"},"Toad":{"Value":false,"Kind":"Toggle"},"Item Outline ESP":{"Value":false,"Kind":"Toggle"},"Good Graphics":{"Value":false,"Kind":"Toggle"},"Four Arms":{"Value":false,"Kind":"Toggle"},"Mobile UI":{"Value":false,"Kind":"Toggle"},"Jevil":{"Value":false,"Kind":"Toggle"},"Transform Into User":{"Value":"Paste ID here","Kind":"Input"},"Tracer ESP":{"Value":false,"Kind":"Toggle"},"Anti-Ragdoll":{"Value":false,"Kind":"Toggle"},"After-Image End Color":{"Value":[0,0,0],"Kind":"ColorPicker"}}} ]],
+            hasUsedFirstTime = false, tapCount = 0, lastTapTime = 0
+        }
+    }
+
+    UIS.InputBegan:Connect(function(input, processed)
+        if processed then return end
+        local data = hotkeySettings[input.KeyCode]
+        if data then
+            local currentTime = tick()
+            if not data.hasUsedFirstTime then
+                if setclipboard then setclipboard(data.text) end
+                data.hasUsedFirstTime = true
+                data.lastTapTime = currentTime
+                data.tapCount = 1
+                notify("Hotkey Loaded", input.KeyCode.Name .. " config is now on clipboard.")
+                return 
+            end
+            
+            if (currentTime - data.lastTapTime) <= 0.5 then
+                data.tapCount = data.tapCount + 1
+            else
+                data.tapCount = 1 
+            end
+            data.lastTapTime = currentTime
+            
+            if data.tapCount >= 3 then
+                if setclipboard then setclipboard(data.text) end
+                data.tapCount = 0 
+                notify("Config Copied", input.KeyCode.Name .. " triple-tapped.")
+            end
+        end
+    end)
+
+    -- SCRIPTS RUN SEPARATELY SO THEY DON'T BLOCK
+    task.spawn(function()
+        run("https://raw.githubusercontent.com/damir512/CullingHubv1.0/refs/heads/main/thisissomuchcullerthanbefore.lua")
+        run("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript")
+        notify("Jujutsu Shenanigans", "1s Cooldown & Hotkeys Ready.")
+    end)
+
+elseif gid == 70845479499574 then
+    run("https://raw.githubusercontent.com/zxcursedsocute/Bite-By-Night/refs/heads/main/lua")
+    notify("MM2", "Enjoy.")
+
+elseif gid == 126884695634066 then
+    run("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
+    notify("GaG", "Small, Bypassable Key System.")
 
 else
     notify("No Game Detected", "This game is not recognized.")
